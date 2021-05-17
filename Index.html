@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Epypro</title>
+    <style>.carousel-inner img{
+        width: 100%;
+        height: 100%;
+    } 
+    .carousel-item{
+        transition: 0.5s;
+        background-image: url('https://drive.google.com/uc?id=1XybIzjJSgAKa6PL6WNuBSP07gCDPs0dt');
+        background-repeat: no-repeat;
+        position: relative;
+        
+    }
+    .carousel-item .edmaxt{
+        position: relative;
+        width: 245px;
+        height: 540px;
+        background: rgba(0, 0, 0, 0);
+       /* align-content: top center; */
+        margin-left: 300px;
+        transition: 0.5s;
+        display: flex;
+
+
+    }
+    .carousel-item .layer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: scale-down;
+    }
+    .carousel-item:hover .edmaxt:nth-child(4){
+        transform: translate(160px,-160px);
+        opacity: 1;
+
+
+    }
+    #demo .carousel-control-prev , .carousel-control-next{
+        width: 40px;
+        height: 40px;
+        background-color: #000;
+        border-radius: 50%;
+        top: calc(50% - 25px);
+        opacity: .8;
+    }
+    #demo .carousel-control-prev{
+        left: 5%;
+    }
+    #demo .carousel-control-next{
+        right: 5%;
+    }
+    /* .solid{
+        background-image: url('../Sam-keiser-samkeiseratlas.jpg');
+        width: 1100px;
+        height: 500px;
+        z-index: 1;
+        position: relative;
+        background-repeat: no-repeat;
+
+        &::before{
+            content: '';
+            position:absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+        }
+    } 
+     .transparent{
+        
+        background-repeat: no-repeat;
+        width: 908px;
+        height: 2160px;
+        z-index: 1000;
+        position: relative;
+    }  */
+    .follow{
+        color: green;
+    }
+    </style>
+</head>
+<body>
+   <!--  <div id="home">
+        <div class="landing-text"> 
+            <h1>EPYPRO</h1>
+            <h3>Comunidad de VStreamer para Vstreamers</h3>
+            <a href="#" class="btn btn-default btn-lg" style="color: blue;">Conocenos</a>
+        </div>
+    </div> -->
+
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="4000">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <img src="https://drive.google.com/uc?id=1hi5-rbDLwj0V5hzRZheCUI05Sd3mGv9y" alt="ivan" width="1100" height="500">
+            <div class="carousel-caption">
+                <a href="https://sites.google.com/view/temppyrotest/Mrivanovichh" >
+                    <h3 style="color: red; font-weight: bold;" > MrIvanovichh</h3>
+                </a>
+                <h6 class="follow">Siguelo en</h6>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="https://www.twitch.tv/mrivanovichh" class="fa fa-twitch"></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://drive.google.com/uc?id=1_NYQT32ju_1G8GNGUSzXYHV5qUHzXdxa" alt="airi"width="1100" height="500">
+            <div class="carousel-caption">
+                <h3 style="color: red; font-weight: bold;" >Airi</h3>
+                <h6 class="follow">Siguelo en</h6>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitch"></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://drive.google.com/uc?id=1HNpy5n8-LGydmWBIHGFdw-0D-wE10-GG" alt="Yummi" width="1100" height="400">
+            <div class="carousel-caption">
+                <h3 style="color: red; font-weight: bold;" >Yummi</h3>
+                <h6 class="follow">Siguelo en</h6>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitch"></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class='edmaxt' src="https://drive.google.com/uc?id=1livvRAuoQtv2yvrft6hM3DwF9wiADA3G" alt="edmaxt">
+            <div class="carousel-caption">
+                <h3 style="color: red; font-weight: bold;" >Edmaxt</h3>
+                <h6 class="follow">Siguelo en</h6>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitch"></a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+
+    
+    
+    
+</body>
+</html>
